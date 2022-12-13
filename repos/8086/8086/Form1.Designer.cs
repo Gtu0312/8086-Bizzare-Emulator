@@ -59,6 +59,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(121, 419);
             this.panel1.TabIndex = 14;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // XCHG_btn
             // 
@@ -87,6 +88,7 @@
             // 
             // moVwind1
             // 
+            this.moVwind1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moVwind1.BackgroundImage")));
             this.moVwind1.ForeColor = System.Drawing.Color.DeepPink;
             this.moVwind1.Location = new System.Drawing.Point(127, 0);
             this.moVwind1.Name = "moVwind1";
@@ -95,12 +97,13 @@
             // 
             // xchGwid1
             // 
-            this.xchGwid1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.xchGwid1.BackColor = System.Drawing.Color.Transparent;
             this.xchGwid1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("xchGwid1.BackgroundImage")));
             this.xchGwid1.ForeColor = System.Drawing.Color.MediumBlue;
+            this.xchGwid1.ImeMode = System.Windows.Forms.ImeMode.On;
             this.xchGwid1.Location = new System.Drawing.Point(117, 0);
             this.xchGwid1.Name = "xchGwid1";
-            this.xchGwid1.Size = new System.Drawing.Size(558, 407);
+            this.xchGwid1.Size = new System.Drawing.Size(559, 407);
             this.xchGwid1.TabIndex = 16;
             this.xchGwid1.Load += new System.EventHandler(this.xchGwid1_Load);
             // 

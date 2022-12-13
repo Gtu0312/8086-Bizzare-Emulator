@@ -59,7 +59,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.groupBox1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.groupBox1.Controls.Add(this.DX1_btn);
             this.groupBox1.Controls.Add(this.CX1_btn);
             this.groupBox1.Controls.Add(this.BX1_btn);
@@ -149,7 +149,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.groupBox2.BackColor = System.Drawing.Color.SlateBlue;
             this.groupBox2.Controls.Add(this.DX2_btn);
             this.groupBox2.Controls.Add(this.CX2_btn);
             this.groupBox2.Controls.Add(this.BX2_btn);
@@ -255,9 +255,9 @@
             // 
             // exec_btn
             // 
-            this.exec_btn.BackColor = System.Drawing.Color.LavenderBlush;
+            this.exec_btn.BackColor = System.Drawing.Color.Beige;
             this.exec_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.exec_btn.ForeColor = System.Drawing.Color.HotPink;
+            this.exec_btn.ForeColor = System.Drawing.Color.MidnightBlue;
             this.exec_btn.Location = new System.Drawing.Point(162, 269);
             this.exec_btn.Name = "exec_btn";
             this.exec_btn.Size = new System.Drawing.Size(75, 23);
@@ -270,8 +270,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Jokerman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label3.Location = new System.Drawing.Point(223, 106);
+            this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label3.Location = new System.Drawing.Point(235, 128);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 20);
             this.label3.TabIndex = 2;
@@ -281,8 +281,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Jokerman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label4.Location = new System.Drawing.Point(223, 131);
+            this.label4.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label4.Location = new System.Drawing.Point(235, 156);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 20);
             this.label4.TabIndex = 2;
@@ -292,8 +292,8 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Jokerman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label5.Location = new System.Drawing.Point(223, 156);
+            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label5.Location = new System.Drawing.Point(234, 185);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(29, 20);
             this.label5.TabIndex = 2;
@@ -303,8 +303,8 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Jokerman", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label6.Location = new System.Drawing.Point(221, 184);
+            this.label6.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label6.Location = new System.Drawing.Point(234, 211);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(28, 20);
             this.label6.TabIndex = 2;
@@ -312,8 +312,8 @@
             // 
             // ax_value_box
             // 
-            this.ax_value_box.BackColor = System.Drawing.Color.Linen;
-            this.ax_value_box.Location = new System.Drawing.Point(268, 106);
+            this.ax_value_box.BackColor = System.Drawing.Color.Beige;
+            this.ax_value_box.Location = new System.Drawing.Point(268, 128);
             this.ax_value_box.Multiline = true;
             this.ax_value_box.Name = "ax_value_box";
             this.ax_value_box.ReadOnly = true;
@@ -323,8 +323,8 @@
             // 
             // bx_value_box
             // 
-            this.bx_value_box.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.bx_value_box.Location = new System.Drawing.Point(268, 130);
+            this.bx_value_box.BackColor = System.Drawing.Color.Beige;
+            this.bx_value_box.Location = new System.Drawing.Point(268, 154);
             this.bx_value_box.Multiline = true;
             this.bx_value_box.Name = "bx_value_box";
             this.bx_value_box.ReadOnly = true;
@@ -334,8 +334,8 @@
             // 
             // cx_value_box
             // 
-            this.cx_value_box.BackColor = System.Drawing.Color.MintCream;
-            this.cx_value_box.Location = new System.Drawing.Point(268, 156);
+            this.cx_value_box.BackColor = System.Drawing.Color.Beige;
+            this.cx_value_box.Location = new System.Drawing.Point(268, 185);
             this.cx_value_box.Multiline = true;
             this.cx_value_box.Name = "cx_value_box";
             this.cx_value_box.ReadOnly = true;
@@ -345,8 +345,8 @@
             // 
             // dx_value_box
             // 
-            this.dx_value_box.BackColor = System.Drawing.Color.MistyRose;
-            this.dx_value_box.Location = new System.Drawing.Point(268, 184);
+            this.dx_value_box.BackColor = System.Drawing.Color.Beige;
+            this.dx_value_box.Location = new System.Drawing.Point(268, 211);
             this.dx_value_box.Multiline = true;
             this.dx_value_box.Name = "dx_value_box";
             this.dx_value_box.ReadOnly = true;
@@ -360,7 +360,7 @@
             this.label7.BackColor = System.Drawing.Color.Linen;
             this.label7.Font = new System.Drawing.Font("Jokerman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(235, 71);
+            this.label7.Location = new System.Drawing.Point(251, 82);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 22);
             this.label7.TabIndex = 4;
@@ -371,20 +371,20 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Linen;
-            this.label8.Font = new System.Drawing.Font("Jokerman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.Font = new System.Drawing.Font("Jokerman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(206, 10);
+            this.label8.Location = new System.Drawing.Point(234, 11);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 31);
+            this.label8.Size = new System.Drawing.Size(76, 35);
             this.label8.TabIndex = 6;
             this.label8.Text = "MOV";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LavenderBlush;
+            this.button1.BackColor = System.Drawing.Color.Beige;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.DeepPink;
+            this.button1.ForeColor = System.Drawing.Color.SlateBlue;
             this.button1.Location = new System.Drawing.Point(243, 269);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
