@@ -57,13 +57,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(121, 419);
+            this.panel1.Size = new System.Drawing.Size(121, 406);
             this.panel1.TabIndex = 14;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // XCHG_btn
             // 
             this.XCHG_btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("XCHG_btn.BackgroundImage")));
+            this.XCHG_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XCHG_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.XCHG_btn.Font = new System.Drawing.Font("Jokerman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.XCHG_btn.Location = new System.Drawing.Point(29, 219);
@@ -76,6 +77,7 @@
             // 
             // MOV_btn
             // 
+            this.MOV_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MOV_btn.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.MOV_btn.Font = new System.Drawing.Font("Jokerman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.MOV_btn.Location = new System.Drawing.Point(29, 116);
@@ -88,11 +90,13 @@
             // 
             // moVwind1
             // 
+            this.moVwind1.BackColor = System.Drawing.Color.Linen;
             this.moVwind1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("moVwind1.BackgroundImage")));
+            this.moVwind1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.moVwind1.ForeColor = System.Drawing.Color.DeepPink;
-            this.moVwind1.Location = new System.Drawing.Point(127, 0);
+            this.moVwind1.Location = new System.Drawing.Point(115, 0);
             this.moVwind1.Name = "moVwind1";
-            this.moVwind1.Size = new System.Drawing.Size(460, 310);
+            this.moVwind1.Size = new System.Drawing.Size(556, 406);
             this.moVwind1.TabIndex = 15;
             // 
             // xchGwid1
@@ -101,9 +105,9 @@
             this.xchGwid1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("xchGwid1.BackgroundImage")));
             this.xchGwid1.ForeColor = System.Drawing.Color.MediumBlue;
             this.xchGwid1.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.xchGwid1.Location = new System.Drawing.Point(117, 0);
+            this.xchGwid1.Location = new System.Drawing.Point(115, -1);
             this.xchGwid1.Name = "xchGwid1";
-            this.xchGwid1.Size = new System.Drawing.Size(559, 407);
+            this.xchGwid1.Size = new System.Drawing.Size(556, 407);
             this.xchGwid1.TabIndex = 16;
             this.xchGwid1.Load += new System.EventHandler(this.xchGwid1_Load);
             // 
@@ -111,7 +115,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(677, 419);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(673, 406);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.xchGwid1);
             this.Controls.Add(this.moVwind1);

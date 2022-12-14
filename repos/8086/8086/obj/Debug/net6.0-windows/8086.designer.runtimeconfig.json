@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Greta\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Greta\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "D:\\Users\\greta.tuznik\\.dotnet\\store\\|arch|\\|tfm|",
+      "D:\\Users\\greta.tuznik\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
